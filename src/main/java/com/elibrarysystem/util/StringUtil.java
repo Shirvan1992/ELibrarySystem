@@ -1,9 +1,5 @@
 package com.elibrarysystem.util;
 
-/**
- * This class contains utility methods related to String Operations.
- * 
- */
 public class StringUtil {
     public static String toCommaSeparatedString(Object[] items){
         StringBuilder sb = new StringBuilder();

@@ -1,6 +1,5 @@
 package com.elibrarysystem.domain;
 
-import java.util.Date;
 
 public class Book {
     private Integer bookId; //PK

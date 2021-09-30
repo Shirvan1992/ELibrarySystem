@@ -81,10 +81,7 @@ public class UserDAOImpl extends BaseDAO implements UserDAO {
     public List<User> findAll() {
         String sql = "SELECT userId, name, phone, email, address, loginName, role, loginStatus"
                 + " FROM users";
-           /*
-           List<User> users = getJdbcTemplate().query(sql, new UserRowMapper());
-           return users;
-           */
+
         return getJdbcTemplate().query(sql, new UserRowMapper());
 
     }

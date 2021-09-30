@@ -27,7 +27,7 @@ public class BookDAOImpl extends BaseDAO implements BookDAO {
         m.put("returnTime", b.getReturnTime());
         m.put("comments", b.getComments());
         SqlParameterSource ps = new MapSqlParameterSource(m);
-        KeyHolder kh = new GeneratedKeyHolder(); // auto generated id'ni get edeceyimiz ucun HeyHolder istifade eledik.
+        KeyHolder kh = new GeneratedKeyHolder(); // auto generated id'ni get edeceyimiz ucun KeyHolder istifade eledik.
         getNamedParameterJdbcTemplate().update(sql, ps, kh);
         b.setBookId(kh.getKey().intValue());
     }

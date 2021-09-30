@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 //@ComponentScan(basePackages = {"com.elibrarysystem.dao","com.elibrarysystem.services"})
 public class SpringRootConfig {
-    //TODO: Services, DAO, DataSource, Email Sender or some other business layer beans   
+
     @Bean
     public BasicDataSource getDataSource() { //connection pool dbcp dependency elave etdikden sonra gelir
         BasicDataSource ds = new BasicDataSource();
@@ -24,3 +24,4 @@ public class SpringRootConfig {
         return ds;
     }
 }
+

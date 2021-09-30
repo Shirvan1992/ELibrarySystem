@@ -5,7 +5,7 @@
 <s:url var="url_logout" value="/logout"/>
 
 <c:if test="${sessionScope.userId==null}">
-    <%-- User is not yet logged in : Guest Menu --%>
+    <%-- User is not yet logged in --%>
     <s:url var="url_reg_form" value="/reg_form"/>
     <br/>
     <s:url var="url_index" value="/index"/>
