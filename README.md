@@ -26,6 +26,6 @@ Admin
   - able to activate or block any user or users
   - blocked user is not able to login again
   - list all books from Library DB
-  - edit, delete all books
+  - edit, delete all books.
 
 Result of application : https://www.youtube.com/watch?v=2ngn78qTIFE&t=196s
